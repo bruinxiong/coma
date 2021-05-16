@@ -1,10 +1,14 @@
 # CoMA: Convolutional Mesh Autoencoders
 
-![Generating 3D Faces using Convolutional Mesh Autoencoders](http://coma.is.tue.mpg.de/assets/coma_faces.jpg)
+![Generating 3D Faces using Convolutional Mesh Autoencoders](https://coma.is.tue.mpg.de/uploads/ckeditor/pictures/91/content_coma_faces.jpg)
 
 This is an official repository of [Generating 3D Faces using Convolutional Mesh Autoencoders](https://coma.is.tue.mpg.de)
 
 [[Project Page](https://coma.is.tue.mpg.de)][[Arxiv](https://arxiv.org/abs/1807.10267)]
+
+**UPDATE :** Thank you for using and supporting this repository over the last two years. This will no longer be maintained. Alternatively, please use:
+- [sw-gong/coma](https://github.com/sw-gong/coma), thanks to Shunwang Gong.
+- [pixelite1201/pytorch_coma](https://github.com/pixelite1201/pytorch_coma/), thanks to Priyanka Patel.
 
 ## Requirements
 This code is tested on Tensorflow 1.3. Requirements (including tensorflow) can be installed using:
@@ -59,6 +63,10 @@ We thank [Raffi Enficiaud](https://www.is.mpg.de/person/renficiaud) and [Ahmed O
 
 ## License
 The code contained in this repository is under MIT License and is free for commercial and non-commercial purposes. The dependencies, in particular, [MPI-IS/mesh](https://github.com/MPI-IS/mesh) and our [data](https://coma.is.tue.mpg.de) have their own license terms which can be found on their respective webpages. The dependencies and data are NOT covered by MIT License associated with this repository.
+
+## Related projects
+
+[CAPE (CVPR 2020)](https://github.com/QianliM/CAPE): Based on CoMA, we build a conditional Mesh-VAE-GAN to learn the clothing deformation from the SMPL body model, making a generative, animatable model of people in clothing. A large-scale mesh dataset of clothed humans in motion is also included!
 
 ## When using this code, please cite
 
